@@ -1,9 +1,21 @@
 # VNC-Browser 
 A Lightweight Web Browsing Environment in Docker with VNC Access
 
-**Leave a star ⭐ if you like this project 🙂 thank you.**
-
-[![Docker Pulls](https://img.shields.io/docker/pulls/mrcolorrain/vnc-browser.svg)](https://hub.docker.com/repository/docker/mrcolorrain/vnc-browser)
+> [!WARNING]  
+> This is a fork of [MRColorR/vnc-browser](https://github.com/MRColorR/vnc-browser). The README below is from the original project. I haven't updated it yet. Due to the changes I made this readme is partially irrelevant.
+>
+> **Changes in this fork:**
+> - removed noVNC
+> - removed fluxbox
+> - removed bash
+> - added a bunch of fonts (maybe too much?)
+> - the container is not privileged anymore
+>
+> **Why?**
+>
+> I need this to serve a single-page dashboard over regular VNC.
+> The user won't need any navigation.
+> Hence the removal of noVNC and the window manager.
 
 ## Info :information_source:
 VNC-Browser is a minimal, Alpine Linux-based Docker image designed to provide a lightweight and secure environment for browsing the web via VNC.
